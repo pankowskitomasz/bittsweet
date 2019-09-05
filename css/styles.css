@@ -1,0 +1,19 @@
+/* line 1, ../sass/partials/_layout.scss */
+.section-full-height, .index-s1, .index-s3, .index-s4 {
+  min-height: 100%;
+}
+
+/* line 5, ../sass/partials/_layout.scss */
+.section-half-height, .index-s2, .index-s5, .index-s6, .index-s7 {
+  min-height: 50%;
+}
+
+/* line 9, ../sass/partials/_layout.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/partials/_layout.scss */
+body, html {
+  height: 100%;
+}
