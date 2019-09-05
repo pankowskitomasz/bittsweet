@@ -1,0 +1,18 @@
+.table-menu{
+    cursor: pointer;
+    tr{
+        td:nth-of-type(2){
+            text-align: right;
+        }
+    }
+}
+fieldset{
+    margin-bottom: 15px;
+}
+input{
+    margin-bottom: 5px;
+}
+textarea{
+    height: 150px !important;
+    resize: none;
+}

@@ -1,5 +1,5 @@
 /* line 1, ../sass/partials/_layout.scss */
-.section-full-height, .index-s1, .index-s3, .index-s4 {
+.section-full-height, .about-s1, .about-s2, .contact-s1, .contact-s2, .index-s1, .index-s3, .index-s4, .menu-s1, .menu-s2, .services-s1, .services-s2, .staff-s1, .staff-s2 {
   min-height: 100%;
 }
 
@@ -16,4 +16,29 @@
 /* line 12, ../sass/partials/_layout.scss */
 body, html {
   height: 100%;
+}
+
+/* line 1, ../sass/partials/_modules.scss */
+.table-menu {
+  cursor: pointer;
+}
+/* line 4, ../sass/partials/_modules.scss */
+.table-menu tr td:nth-of-type(2) {
+  text-align: right;
+}
+
+/* line 9, ../sass/partials/_modules.scss */
+fieldset {
+  margin-bottom: 15px;
+}
+
+/* line 12, ../sass/partials/_modules.scss */
+input {
+  margin-bottom: 5px;
+}
+
+/* line 15, ../sass/partials/_modules.scss */
+textarea {
+  height: 150px !important;
+  resize: none;
 }
