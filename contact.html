@@ -17,14 +17,18 @@
         <link rel="stylesheet" 
             type="text/css"
             href="css/styles.min.css">
+        <link rel="stylesheet" 
+            type="text/css"
+            href="css/font-awesome.min.css">
         <title>BittSweet Cafe | Contact</title>
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-static-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand">
+                    <a href="index.html" class="navbar-text font-logo">
                         <img src="img/navbar-logo.png" alt="logo">
+                        <strong>BittSweet</strong>
                     </a>
                     <button class="navbar-toggle collapsed"
                         data-toggle="collapse"
@@ -35,7 +39,7 @@
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="main-nav">
-                    <ul class="nav navbar-nav navbar-right text-uppercase">
+                    <ul class="nav navbar-nav navbar-right text-uppercase font-menu">
                         <li>
                             <a href="index.html">Home</a>
                         </li>
@@ -58,33 +62,35 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid contact-s1 hidden-xs hidden-sm visible-md visible-lg">
-            <div class="info-box">
-                <h4>BittSweet</h4>
-                <p class="lead">
-                    Cupertino, CA<br/>
-                    info&#64;bittsweet.com<br/>
-                    408-234-5678
-                </p>
+        <div class="container-fluid contact-s1 hidden-xs hidden-sm visible-md visible-lg d-flex">
+            <div class="bg-blk img-thumbnail opacity-9 box-shadow mx-auto my-auto text-white">
+                <div class="p-40 text-center">
+                    <h2 class="font-logo">BittSweet</h2>
+                    <p class="initialism">
+                        Cupertino, CA<br/>
+                        info&#64;bittsweet.com<br/>
+                        408-234-5678
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="container contact-s2">
+        <div class="container-fluid contact-s2 p-40 opacity-9">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
-                    <h3>COMPANY INFO</h3>
-                    <ul class="list-unstyled">
+                    <h4 class="font-header">COMPANY INFO</h4>
+                    <ul class="list-unstyled text-muted initialism">
                         <li>20560</li>
                         <li>Town Center</li>
-                        <li>Cupertino,</li>
-                        <li>contact@bittsweet.com</li>
-                        <li>406-211-1234</li>
+                        <li>Cupertino, CA</li>
+                        <li>info&#64;bittsweet.com</li>
+                        <li>408-234-5678</li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <h3>BUSINESS HOURS</h3>
+                    <h4 class="font-header">BUSINESS HOURS</h4>
                     <table class="table table-striped table-hover table-menu">
                         <thead>
-                            <tr>
+                            <tr class="font-header">
                                 <th>Day of week</th>
                                 <th class="text-right">Opening hours</th>
                             </tr>
@@ -121,58 +127,58 @@
                         </tbody>
                     </table>                    
                 </div>
-                <div class="row">
-                    <div class="col-xs-10 col-md-8 col-xs-offset-1 col-md-offset-2">
-                        <form method="post" action="" autocomplete="off">
-                            <div class="col-xs-12 col-md-6">
-                                <fieldset>
-                                    <legend>Personal data</legend>
-                                    <input class="form-control" type="text" name="fname" maxlength="30" placeholder="First name" tabindex="1">
-                                    <input class="form-control" type="text" name="lname" maxlength="30" placeholder="Last name" tabindex="2">
-                                    <input class="form-control" type="tel" name="fphone" maxlength="15" placeholder="Phone" tabindex="3">
-                                    <input class="form-control" type="email" name="fmail" maxlength="50" placeholder="Email" tabindex="4">
-                                </fieldset>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <fieldset>
-                                    <legend>Your message</legend>
-                                    <textarea class="form-control" maxlength="150" tabindex="5"></textarea>
-                                </fieldset>
-                            </div>
-                            <div class="col-xs-12 text-center">
-                                <input class="btn btn-default" type="submit" value="Send" tabindex="6">
-                                <input class="btn btn-default" type="reset" value="Clear" tabindex="7">
-                            </div>
-                        </form>
-                    </div>
+            </div>
+            <div class="row pt-20">
+                <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1">
+                    <form method="post" action="" autocomplete="off">
+                        <div class="col-xs-12 col-md-6">
+                            <fieldset>
+                                <legend class="font-header">Personal data</legend>
+                                <input class="form-control" type="text" name="fname" maxlength="30" placeholder="First name" tabindex="1">
+                                <input class="form-control" type="text" name="lname" maxlength="30" placeholder="Last name" tabindex="2">
+                                <input class="form-control" type="tel" name="fphone" maxlength="15" placeholder="Phone" tabindex="3">
+                                <input class="form-control" type="email" name="fmail" maxlength="50" placeholder="Email" tabindex="4">
+                            </fieldset>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <fieldset>
+                                <legend class="font-header">Your message</legend>
+                                <textarea class="form-control" maxlength="150" tabindex="5"></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="col-xs-12 text-center">
+                            <input class="btn btn-default" type="submit" value="Send" tabindex="6">
+                            <input class="btn btn-default" type="reset" value="Clear" tabindex="7">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>  
-        <footer class="container-fluid text-center">
+        <footer class="container-fluid text-center bg-blk text-white p-20">
             <div class="row">
-                <ul class="list-inline">
+                <ul class="list-inline icon-list">
                     <li>
                         <a href="https://www.facebook.com"
                             rel="noopener noreferrer nofollow">
-                            <span class="glyphicon glyphicon-alert"></span>
+                            <span class="fa fa-facebook-f"></span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.twitter.com"
                             rel="noopener noreferrer nofollow">
-                            <span class="glyphicon glyphicon-alert"></span>
+                            <span class="fa fa-twitter"></span>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com"
                             rel="noopener noreferrer nofollow">
-                            <span class="glyphicon glyphicon-alert"></span>
+                            <span class="fa fa-instagram"></span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="row">
-                 <ul class="list-inline text-uppercase">
+            <div class="row border-bottom border-white">
+                 <ul class="list-inline text-uppercase font-menu footer-menu p-20">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -193,14 +199,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="row">
+            <div class="row font-menu pt-20">
                 <div class="col-xs-12 col-md-6">
                     <p class="">
                         Website demo, Copyright &copy; 2019
                     </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <ul class="list-inline">
+                    <ul class="list-inline text-uppercase footer-menu">
                         <li>
                             <a href="privacy.html">
                                 Privacy &amp; Cookies

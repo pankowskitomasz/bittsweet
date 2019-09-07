@@ -10,7 +10,8 @@ module.exports = function(grunt){
                 src:[
                     "js/jquery-3.4.1.min.js",
                     "js/jquery.lazy.min.js",
-                    "js/bootstrap.min.js"
+                    "js/bootstrap.min.js",
+                    "js/main.js"
                 ],
                 dest:"js/main.concat.js"
             }
@@ -34,6 +35,7 @@ module.exports = function(grunt){
                 files:[
                     {src:"./*.html",dest:"pub/"},
                     {src:"./*.php",dest:"pub/"},
+                    {src:"css/font-awesome.min.css",dest:"pub/"},
                     {src:"css/styles.min.css",dest:"pub/"},
                     {src:"fonts/*",dest:"pub/"},
                     {src:"img/*",dest:"pub/"},

@@ -1,3 +1,16 @@
+$border-style: solid;
+$border-size: 1px;
+$border-wht-color: #fff;
+$color-blk: #333;
+$color-gray:#999;
+$font-header: 'Josefin Sans', sans-serif;
+$font-logo: 'Satisfy', cursive;
+$font-menu: $font-header;
+$footer-menu-color: #fff;
+$icon-color: #fff;
+$icon-size: 25px;
+$navbar-height: 50px;
+$navbar-logo-size: 40px;
 $section-full-height:
     "about-s1",
     "about-s2",
@@ -17,3 +30,6 @@ $section-half-height:
     "index-s5",
     "index-s6",
     "index-s7";
+$text-wht: #fff;
+$top-bg-img: "../img/index-s1-bg-xs.jpg";
+$top-bg-img-lg: "../img/index-s1-bg-lg.jpg";
