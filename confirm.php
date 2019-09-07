@@ -20,7 +20,7 @@
         <link rel="stylesheet" 
             type="text/css"
             href="css/font-awesome.min.css">
-        <title>BittSweet Cafe | Our staff</title>
+        <title>BittSweet Cafe | Message sent</title>
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-static-top">
@@ -52,8 +52,8 @@
                         <li>
                             <a href="services.html">Services</a>
                         </li>
-                        <li class="active">
-                            <a href="#">Staff</a>
+                        <li>
+                            <a href="staff.html">Staff</a>
                         </li>
                         <li>
                             <a href="contact.html">Contact</a>
@@ -62,40 +62,66 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid staff-s1 hidden-xs hidden-sm visible-md visible-lg d-flex">
-            <div class="bg-blk img-thumbnail opacity-9 box-shadow mx-auto my-auto text-white">
-                <div class="p-40 text-center">
-                    <h2 class="font-logo">BittSweet</h2>
-                    <p class="initialism">
-                        Cupertino, CA<br/>
-                        info&#64;bittsweet.com<br/>
-                        408-234-5678
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container staff-s2 p-40 d-flex">
+        <div class="container-fluid contact-s1 p-40 opacity-9 d-flex">
             <div class="row mx-auto my-auto">
-                <div class="col-xs-12 col-md-6 d-flex">
-                    <div class="mx-auto my-auto p-20">
-                        <img class="img-responsive"
-                            src="img/owner.jpg"
-                            alt="owner">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 opacity-9">
-                    <h3 class="font-header">Daniel Vu - The owner</h3>
-                    <p>
-                        Daniel Vu originally went to school to become a graphic designer. 
-                        He spent the next few years bouncing around to Psychology, Vet Tech, 
-                        Business, and Culinary School. While finding his place, he accidentally 
-                        stumbled into the coffee industry. He enjoyed it so much, that he spent 
-                        5 years jumping around from coffeeshop to coffeeshop until he came to 
-                        BittSweet. There, he worked as a manager/trainer for 6 years until 
-                        finally taking over as the new owner. His passion and dedication to 
-                        the art and creativity of the coffee industry has allowed him to use 
-                        BittSweet as a platform to push the boundaries.
-                    </p>
+                <div class="alert alert-info text-center w-50vw">
+                    <h3 class="font-header">Message sent!</h3>
+                    <table class="table table-hover text-left">
+                        <thead>
+                            <tr>
+                                <th colspan="2" class="font-header">Summary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>First name</td>
+                                <td>
+                                    <?php 
+                                    if(isset($_POST['fname']))
+                                        echo htmlspecialchars($_POST['fname']);
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Last name</td>
+                                <td>
+                                    <?php 
+                                    if(isset($_POST['lname']))
+                                        echo htmlspecialchars($_POST['lname']);
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>
+                                    <?php 
+                                    if(isset($_POST['fphone']))
+                                        echo htmlspecialchars($_POST['fphone']);
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>
+                                    <?php 
+                                    if(isset($_POST['fmail']))
+                                        echo htmlspecialchars($_POST['fmail']);
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Message</td>
+                                <td>
+                                    <?php 
+                                    if(isset($_POST['fmsg']))
+                                        echo htmlspecialchars($_POST['fmsg']);
+                                    ?>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="contact.html" 
+                        class="btn btn-lg btn-info">OK</a>
                 </div>
             </div>
         </div>
@@ -160,7 +186,7 @@
                     </ul>
                 </div>
             </div>
-        </footer>    
+        </footer>     
         <div class="modal" id="privacyModal">
             <div class="modal-dialog">
                 <div class="modal-content p-20">
@@ -192,7 +218,7 @@
                     </div>
                 </div>
             </div>
-        </div>     
+        </div>   
         <script type="text/javascript" 
             src="js/main.min.js">
         </script>

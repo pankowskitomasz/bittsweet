@@ -161,6 +161,11 @@
         }
     }
 }
+.w{
+    &-50vw{
+        min-width: 50vw;
+    }
+}
 div[class*="-s1"]{
     @include set-background($top-bg-img);
     @extend .top-section-height;

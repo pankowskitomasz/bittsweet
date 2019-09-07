@@ -20,7 +20,7 @@
         <link rel="stylesheet" 
             type="text/css"
             href="css/font-awesome.min.css">
-        <title>BittSweet Cafe | Our staff</title>
+        <title>BittSweet Cafe | Error</title>
     </head>
     <body>
         <div class="navbar navbar-inverse navbar-static-top">
@@ -52,8 +52,8 @@
                         <li>
                             <a href="services.html">Services</a>
                         </li>
-                        <li class="active">
-                            <a href="#">Staff</a>
+                        <li>
+                            <a href="staff.html">Staff</a>
                         </li>
                         <li>
                             <a href="contact.html">Contact</a>
@@ -62,40 +62,17 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid staff-s1 hidden-xs hidden-sm visible-md visible-lg d-flex">
-            <div class="bg-blk img-thumbnail opacity-9 box-shadow mx-auto my-auto text-white">
-                <div class="p-40 text-center">
-                    <h2 class="font-logo">BittSweet</h2>
-                    <p class="initialism">
-                        Cupertino, CA<br/>
-                        info&#64;bittsweet.com<br/>
-                        408-234-5678
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="container staff-s2 p-40 d-flex">
+        <div class="container-fluid contact-s1 p-40 opacity-9 d-flex">
             <div class="row mx-auto my-auto">
-                <div class="col-xs-12 col-md-6 d-flex">
-                    <div class="mx-auto my-auto p-20">
-                        <img class="img-responsive"
-                            src="img/owner.jpg"
-                            alt="owner">
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 opacity-9">
-                    <h3 class="font-header">Daniel Vu - The owner</h3>
-                    <p>
-                        Daniel Vu originally went to school to become a graphic designer. 
-                        He spent the next few years bouncing around to Psychology, Vet Tech, 
-                        Business, and Culinary School. While finding his place, he accidentally 
-                        stumbled into the coffee industry. He enjoyed it so much, that he spent 
-                        5 years jumping around from coffeeshop to coffeeshop until he came to 
-                        BittSweet. There, he worked as a manager/trainer for 6 years until 
-                        finally taking over as the new owner. His passion and dedication to 
-                        the art and creativity of the coffee industry has allowed him to use 
-                        BittSweet as a platform to push the boundaries.
+                <div class="alert alert-danger text-center">
+                    <h3 class="font-header">Error!</h3>
+                    <p class="initialism p-20">
+                        Unfortunately your message was not send due to technical<br/> 
+                        problems. Please try again later or contact with us<br/> 
+                        by phone.
                     </p>
+                    <a href="contact.html" 
+                        class="btn btn-lg btn-danger">Back</a>
                 </div>
             </div>
         </div>
@@ -192,7 +169,7 @@
                     </div>
                 </div>
             </div>
-        </div>     
+        </div>    
         <script type="text/javascript" 
             src="js/main.min.js">
         </script>
