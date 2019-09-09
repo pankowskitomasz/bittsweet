@@ -130,20 +130,20 @@
             </div>
             <div class="row pt-20">
                 <div class="col-xs-12 col-xs-offset-0 col-md-10 col-md-offset-1">
-                    <form method="post" action="" autocomplete="off">
+                    <form method="post" action="error.php" autocomplete="off" onsubmit="return checkForm()">
                         <div class="col-xs-12 col-md-6">
                             <fieldset>
                                 <legend class="font-header">Personal data</legend>
-                                <input class="form-control" type="text" name="fname" maxlength="30" placeholder="First name" tabindex="1">
-                                <input class="form-control" type="text" name="lname" maxlength="30" placeholder="Last name" tabindex="2">
-                                <input class="form-control" type="tel" name="fphone" maxlength="15" placeholder="Phone" tabindex="3">
-                                <input class="form-control" type="email" name="fmail" maxlength="50" placeholder="Email" tabindex="4">
+                                <input class="form-control" type="text" name="fname" maxlength="30" placeholder="First name" tabindex="1" required>
+                                <input class="form-control" type="text" name="lname" maxlength="30" placeholder="Last name" tabindex="2" required>
+                                <input class="form-control" type="tel" name="fphone" maxlength="15" placeholder="Phone" tabindex="3" required>
+                                <input class="form-control" type="email" name="fmail" maxlength="50" placeholder="Email" tabindex="4" required>
                             </fieldset>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <fieldset>
                                 <legend class="font-header">Your message</legend>
-                                <textarea class="form-control" maxlength="150" tabindex="5"></textarea>
+                                <textarea class="form-control" name="fmsg" maxlength="150" tabindex="5" required></textarea>
                             </fieldset>
                         </div>
                         <div class="col-xs-12 text-center">
@@ -216,6 +216,38 @@
                 </div>
             </div>
         </footer>    
+        <div class="modal" id="privacyModal">
+            <div class="modal-dialog">
+                <div class="modal-content p-20">
+                    <div class="modal-header text-center">
+                        <h4 class="font-header text-primary">GPDR Declaration</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="initialism">
+                            This website is a <span class="text-danger"> demo version </span> of real website,  It doesn't collect and process,
+                            in long term meaning (longer than needed for website operation during visitor's
+                            presence), any user (visitor) data. All information collected during visitor's 
+                            presence on this website are used only for technical purposes, required for 
+                            correct operation of website or demonstration purposes related to technical 
+                            mechanisms and presentation of its operation... 
+                            <a href="privacy.html" class="label label-primary">More about privacy</a>
+                        </p>                        
+                        <p class="initialism">
+                            If you accept privacy policy please click button "accept". If you 
+                            refuse it, leave page by closing it in your web browser, please.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <button class="btn btn-success"
+                                onclick="acceptPrivacyPolicy()">
+                                Accept
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
         <script type="text/javascript" 
             src="js/main.min.js">
         </script>
