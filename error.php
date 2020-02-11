@@ -124,7 +124,7 @@
             <div class="row font-menu pt-20">
                 <div class="col-xs-12 col-md-6">
                     <p class="">
-                        Website demo, Copyright &copy; 2019
+                        Website demo, Copyright &copy; 2019-2020
                     </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
