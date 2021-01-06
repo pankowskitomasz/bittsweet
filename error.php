@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid contact-s1 p-40 opacity-9 d-flex">
+        <div class="container-fluid error-s1 p-40 opacity-9 d-flex">
             <div class="row mx-auto my-auto">
                 <div class="alert alert-danger text-center">
                     <h3 class="font-header">Error!</h3>
@@ -124,11 +124,11 @@
             <div class="row font-menu pt-20">
                 <div class="col-xs-12 col-md-6">
                     <p class="">
-                        Website demo, Copyright &copy; 2019
+                       Copyright &copy; 2019-2021 Tomasz Pankowski
                     </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <ul class="list-inline text-uppercase footer-menu">
+                    <ul class="list-inline footer-menu">
                         <li>
                             <a href="privacy.html">
                                 Privacy &amp; Cookies

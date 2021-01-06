@@ -62,9 +62,9 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid contact-s1 p-40 opacity-9 d-flex">
+        <div class="container-fluid confirm-s1 p-40 opacity-9 d-flex">
             <div class="row mx-auto my-auto">
-                <div class="alert alert-info text-center w-50vw">
+                <div class="alert alert-info text-center w-65vw">
                     <h3 class="font-header">Message sent!</h3>
                     <table class="table table-hover text-left">
                         <thead>
@@ -173,11 +173,11 @@
             <div class="row font-menu pt-20">
                 <div class="col-xs-12 col-md-6">
                     <p class="">
-                        Website demo, Copyright &copy; 2019
+                       Copyright &copy; 2019-2021 Tomasz Pankowski
                     </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                    <ul class="list-inline text-uppercase footer-menu">
+                    <ul class="list-inline footer-menu">
                         <li>
                             <a href="privacy.html">
                                 Privacy &amp; Cookies
@@ -186,7 +186,7 @@
                     </ul>
                 </div>
             </div>
-        </footer>     
+        </footer>       
         <div class="modal" id="privacyModal">
             <div class="modal-dialog">
                 <div class="modal-content p-20">
