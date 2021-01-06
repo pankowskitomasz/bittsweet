@@ -6,6 +6,13 @@
     min-height: 50%;
 }
 
+.section-third-height{
+    min-height: 33vh;
+}
+.section-fifth-height{
+    min-height: 20vh;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -15,3 +22,5 @@ body,html{
 
 @include set-height($section-full-height,".section-full-height");
 @include set-height($section-half-height,".section-half-height");
+@include set-height($section-third-height,".section-third-height");
+@include set-height($section-fifth-height,".section-fifth-height");

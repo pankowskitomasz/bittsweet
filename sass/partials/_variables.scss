@@ -1,6 +1,7 @@
 $border-style: solid;
 $border-size: 1px;
 $border-wht-color: #fff;
+$box-shadow: 0 0 3px #333;
 $color-blk: #333;
 $color-gray:#999;
 $font-header: 'Josefin Sans', sans-serif;
@@ -12,25 +13,30 @@ $icon-size: 25px;
 $navbar-height: 50px;
 $navbar-logo-size: 40px;
 $section-full-height:
+    "confirm-s1",
+    "error-s1",
+    "privacy-s";
+$section-half-height:
     "about-s1",
     "about-s2",
     "contact-s1",
     "contact-s2",
     "index-s1",
-    "index-s3",
-    "index-s4",
+    "index-s7",
     "menu-s1",
     "menu-s2",
-    "privacy-s",
     "services-s1",
     "services-s2",
     "staff-s1",
     "staff-s2";
-$section-half-height:
+$section-third-height:
     "index-s2",
-    "index-s5",
-    "index-s6",
-    "index-s7";
+    "index-s3",
+    "index-s4",
+    "index-s6";
+$section-fifth-height:
+    "index-s5";
+$text-shadow: 1px 1px 3px #666;
 $text-wht: #fff;
 $top-bg-img: "../img/index-s1-bg-xs.jpg";
 $top-bg-img-lg: "../img/index-s1-bg-lg.jpg";

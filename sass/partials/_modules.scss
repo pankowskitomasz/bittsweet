@@ -1,7 +1,7 @@
 #index-s4__carousel{
     .carousel-inner, .item{
-        height: 100vh;
-        max-height: 100vh;
+        height: 33vh;
+        max-height: 33vh;
     }
     img{
         height: 100%;
@@ -17,6 +17,13 @@
 #map-container{
     min-height: 50vh;
     width: 100%;
+}
+.align{
+    &-items{
+        &-center{
+            align-items: center;
+        }
+    }
 }
 .bg{
     &-blk{
@@ -114,6 +121,9 @@
     margin-bottom: 0px;
 }
 .opacity{
+    &-5{
+        opacity: 0.5;
+    }
     &-9{
         opacity: 0.9;
     }
@@ -133,6 +143,12 @@
             padding-top: 20px;
         }
     }
+}
+.shadow{
+    &-text{
+        text-shadow: $text-shadow;
+    }
+    box-shadow: $box-shadow;
 }
 .text{
     &-white{
@@ -165,10 +181,12 @@
     &-50vw{
         min-width: 50vw;
     }
+    &-65vw{
+        min-width: 65vw;
+    }
 }
 div[class*="-s1"]{
     @include set-background($top-bg-img);
-    @extend .top-section-height;
 }
 fieldset{
     margin-bottom: 15px;
